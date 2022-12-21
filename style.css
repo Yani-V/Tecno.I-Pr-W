@@ -1,0 +1,441 @@
+* {
+    margin: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+body {
+    margin: 0px;
+    min-height: 50vh;
+    background-color: #9f90ea;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Aqui comienza estilo del menu principal*/
+
+
+
+.container {
+    background-color: #000020;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid ffffff;
+    box-shadow: 5px 0 10px black;
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+
+.menu li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+
+.menu li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+nav li:hover {
+    background-color: #2f2c79;
+}
+
+
+/* Aqui comienza estilos de la Home*/
+
+
+main {
+    width: 100vw;
+    height: 352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000020;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.logoW {
+    width: 11%;
+    position: relative;
+    float: right;
+    right: 50px;
+    top: 160px;
+}
+
+/* Aqui comienza estilos del archivo trabajos*/
+
+
+.tituloP {
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+    right: 350px;
+    color: #000020;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*primer tanda de fotos*/
+.subtitulo {
+    position: relative;
+    bottom: 150px;
+    right: 400px;
+    top: 1px;
+    color: #000020;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.cajafotos1 {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+
+.cajafotos1-2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    top: 520px;
+    left: 10px;
+}
+
+
+.fotos{
+    width: 107px;
+    height: 100px;
+    border-radius: 22px;
+}
+
+
+.fotos2{
+    width: 90px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/*segunda tanda de fotos*/
+.subtitulo2{
+    position: absolute;
+    bottom: 70px;
+    top: 730px;
+    right: 560px;
+    color: #000020;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.subtitulo2-1{
+    position: absolute;
+    bottom: 70px;
+    top: 800px;
+    left: 100px;
+    color: #000020;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.cajafotos2{
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    top: 880px;
+    left: 10px;
+}
+
+
+.fcards{
+    width: 104px;
+    height: 114px;
+    border-radius: 22px;
+}
+
+
+/*tercera tanda de fotos*/
+.subtitulo2-2{
+    position: absolute;
+    bottom: 90px;
+    top: 1180px;
+    left: 100px;
+    color: #000020;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.cajafotos3{
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    top: 1260px;
+    left: 10px;
+}
+
+
+.fminecraft{
+    width: 90px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/*cuarta tanda de fotos*/
+.subtitulo2-3{
+    position: absolute;
+    bottom: 90px;
+    top: 1570px;
+    left: 100px;
+    color: #000020;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.cajafotos4{
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    top: 1670px;
+    left: 10px;
+}
+
+
+.fbaby{
+    width: 90px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/*quinta tanda de fotos*/
+.subtitulo2-4{
+    position: absolute;
+    bottom: 90px;
+    top: 1860px;
+    left: 100px;
+    color: #000020;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.cajafotos5{
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    top: 1940px;
+    left: 10px;
+}
+
+
+.fbob{
+    width: 90px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/*ultima tematica*/
+.subtitulo2-5{
+    position: absolute;
+    bottom: 90px;
+    top: 2120px;
+    left: 100px;
+    color: #000020;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.cajafoto6{
+    display: inline-block;
+    position: absolute;
+    bottom: 70px;
+    top: 2200px;
+    left: 10px;
+}
+
+
+.fminion{
+    width: 90px;
+    height: 120px;
+    border-radius: 26px;
+}
+
+
+/* Aqui comienza los estilos del archivo contacto */
+
+main {
+    width: 100vw;
+    height: 352px;
+    display: flex;
+    padding: 40px;
+    margin: 10px;
+}
+
+
+
+.titulo2 {
+    font-size: 20px;
+    color: #000020;
+    text-align: center;
+    margin-top: 40px;
+    margin: 25px;
+}
+
+
+.caja1 {
+    width: 60%;
+    height: 400px;
+    background-color: #0000203d;
+    border-radius: 14px;
+    border-color: #000020;
+    box-shadow: 12px 15px 7px  #000020;
+    position: absolute;
+    bottom: 70px;
+    top: 100px;
+    left: 150px;
+    right: 150px;
+    font-size: 14px;
+}
+
+
+input,
+textarea {
+    margin: 0px;
+    border: 0;
+    outline: none;
+    width: 150px;
+    font-size: 14px;
+}
+
+
+.input-padron {
+    border: solid 1px #000020;
+}
+
+
+.radio .checkbox {
+    margin: 0;
+    padding: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+
+
+.btn {
+    background-color: #000020;
+    color: white
+}
+
+
+.caja2 {
+    position: absolute;
+    top: 200px;
+    bottom: 180px;
+    left: 735px;
+    right: 65px;
+    width: 8%;
+    height: 150px;
+    background-color: #000020;
+    box-shadow: 10px 8px 6px #000020 ;
+}
+
+
+.redesSociales {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+a {
+    color: white;
+}
+
+
+/* Aqui los estilos del footer*/
+
+
+.footer {
+    display: flex;
+    justify-items: left;
+    background-color: #000020;
+    width: 100vw;
+    height: 58px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+
+.texto {
+    font-size: 10px;
+    font: bold;
+    color: white;
+}
+
+
+.logoC {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #000020;
+}
+
+
+.perfil {
+    margin-left: 200px;
+    margin-top: 30px;
+}  
+
+
+
+
+
+/*responsive disegn*/
+
+@media (max-width: 700px) {
+    body { background-color: red; }
+    footer { display: flex;
+              justify-content: flex-end;}
+  }

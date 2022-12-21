@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Iconos de la pagina web -->
+    <script src="https://kit.fontawesome.com/a8f9d64333.js" crossorigin="anonymous"></script>
+    
+    <!-- Fuentes de la pagina web -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- Configuracion de estilos -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- menu principal-->
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="menu" >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trabajos.html">Mis Trabajos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Contenido de la Home-->
+    <main>
+        <div>
+        <div class="caja1">
+            <section>
+                <div>
+                    <div class="titulo2">
+                        <h1>Contáctame!</h1>
+                    </div>
+                    <br>
+    <!--Aqui un Formulario-->
+                <form>
+                    <div class="formulario">
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido" class="input-padron" required>
+                        <br>
+                        <label for="correoelectronico">Correo Electrónico</label>
+                        <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                        <br>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                        <br>
+                        <legend class="test" id="test">¿Como le gustaría que lo contacte?</legend>
+                        <label for="radio-email"><input type="radio" name="contacto"
+                        value="email" id="radio-email" class="radio">Email</label>
+                        <br>
+                        <label for="radio-telefono"><input type="radio" name="contacto"
+                        value="telefono" id="radio-telefono"class="radio" >Teléfono</label>
+                        <br>
+                        <label for="radio-whatsapp"><input type="radio" name="contacto"
+                        value="whatsapp" id="radio-whatsapp" class="radio" checked>WhatsAap</label>
+                        <br>
+                        <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de mis trabajos?</label>
+                        <textarea cols="25" rows="5" id="mensaje" class="input-padron" required></textarea>
+                        <br>
+                        <input class="btn" type="submit" value="Enviar">
+                        <br>
+                    </div>
+                </form>
+                </div>
+            </section>
+        </div>
+        <!--Aqui los iconos de redes sociales-->
+        <div class="caja2">
+        <section>
+                <div class="redesSociales">
+                    <a href="@"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="@"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="@"><i class="fa-brands fa-discord"></i></a>
+                    <a href="@"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Yani-V"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+        </section>
+        </div>
+    </div>
+        <!--Aqui logo de whatsapp flotante-->
+        <div class="logow">
+            <a href="https://api.whatsapp.com/send/?phone=542804723626&text=Hola%21%21&type=phone_number&app_absent=0"><img  src="./img/whatsapp.png" alt="logo" class="logoW"</a>
+        </div>
+
+    </main>
+    <!--datos en footer-->
+    <footer>
+            <div class="footer">
+                    <div class="formacion">
+                    <p class="texto">Agradecimientos</p>
+                    <a class="logoC" href="https://clubargentec.org"><img class="logoC" src="./img/logoC.png" alt="lugar de capacitacion"></a>
+                    </div>
+                    <div class="perfil">
+                    <p>&copy Copyright Yanina Velazquez - 2022</p>
+                    </div>
+            </div>
+    </footer>
+</body>
+</html>
